@@ -90,7 +90,7 @@ program
       );
 
       const response = await axios.post(
-        "http://120.79.98.246/store-server/install-package",
+        "https://aidra.store/store-server/install-package",
         {
           name: name,
         }
